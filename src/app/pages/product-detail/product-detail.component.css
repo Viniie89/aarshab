@@ -1,0 +1,312 @@
+.product-detail-main {
+  padding-left: 4%;
+  padding-right: 4%;
+}
+.product-detail-image {
+  height: 100vh;
+  width: 100%;
+}
+.detail-images {
+  height: 100px;
+  width: 100px;
+}
+.product-detail-images-div {
+  display: flex;
+  justify-content: space-between;
+}
+.buttons {
+  display: flex;
+}
+.add-cart {
+  background-color: black;
+  color: white;
+  font-family: Lato bold;
+  font-size: 15px;
+  padding: 10px 50px 10px 50px;
+  text-transform: uppercase;
+}
+.add-heart {
+  background-color: transparent;
+  border: 1px solid grey;
+  padding: 5px 19px 10px 19px;
+}
+.add-pie {
+  background-color: transparent;
+  border: 1px solid grey;
+  padding: 5px 19px 10px 19px;
+}
+.buy-button {
+  background-color: #f17921;
+  color: white;
+  border: none !important;
+  padding: 10px 64px 10px 64px;
+  font-family: Lato bold;
+  font-size: 15px;
+  text-transform: uppercase;
+}
+.title-product-detail {
+  display: flex;
+  justify-content: space-between;
+}
+.product-detail-title {
+  font-family: Monsterrat bold;
+  font-size: 22px;
+  text-transform: uppercase;
+}
+.forward-button {
+  background: transparent;
+  border: 1px solid grey;
+}
+.checked {
+  color: orange;
+}
+.review-text {
+  color: grey;
+  font-size: 15px;
+  font-family: Lato regular;
+  font-weight: bolder;
+}
+.cost {
+  font-family: Monsterrat bold;
+  font-size: 18px;
+}
+.not-cost {
+  font-size: 14px;
+  text-decoration: line-through;
+}
+.available-offers {
+  color: #0031ff;
+  font-family: Lato regular;
+  font-weight: bold;
+  font-size: 15px;
+}
+.offer-detail {
+  color: #8b8b8b;
+  font-size: 13px;
+  font-family: Lato regular;
+}
+.title-highlight {
+  font-family: Monsterrat bold;
+  font-size: 15px;
+  text-transform: uppercase;
+}
+.hightlight-detail {
+  font-family: Lato regular;
+  font-size: 14px;
+  padding: 0px;
+}
+.description-title {
+  font-family: Monsterrat bold;
+  font-size: 15px;
+  text-transform: uppercase;
+}
+.description-detail {
+  font-family: Lato regular;
+  font-size: 16px;
+}
+.specification-title {
+  font-family: Monsterrat bold;
+  font-size: 15px;
+  text-transform: uppercase;
+}
+.specification-detail {
+  font-family: Lato regular;
+  font-size: 16px;
+}
+.detail-specification {
+  font-family: Lato regular;
+  font-size: 16px;
+  color: lightgrey;
+}
+.just-wow-title {
+  font-family: Monsterrat bold;
+  font-size: 15px;
+  text-transform: uppercase;
+}
+
+.faq-title {
+  font-family: Monsterrat bold;
+  font-size: 16px;
+  text-transform: uppercase;
+}
+.question {
+  font-family: Lato bold;
+  font-size: 15px;
+}
+.answer {
+  font-family: Lato bold;
+  font-size: 15px;
+}
+.question-all {
+  color: #f0651f;
+  float: right;
+  text-transform: uppercase;
+  font-size: 14px;
+}
+.image1-banner {
+  height: 50vh;
+  width: 90%;
+}
+.similar-detail {
+  font-size: 15px;
+  font-family: Lato bold;
+}
+.rate-div {
+  background-color: black;
+  color: white;
+  font-size: 14px;
+  padding-left: 4%;
+  padding-right: 4%;
+  padding-top: 2%;
+  padding-bottom: 2%;
+}
+.cost-similar-product {
+  font-family: Monsterrat bold;
+  font-size: 16px;
+}
+.not-cost-similar-product {
+  font-size: 12px;
+  color: grey;
+  text-decoration: line-through;
+}
+.offer-cost {
+  font-size: 13px;
+}
+.rate-div-green {
+  background-color: green;
+  color: white;
+  font-size: 14px;
+  padding-left: 4%;
+  padding-right: 4%;
+  padding-top: 2%;
+  padding-bottom: 2%;
+}
+.detail-div {
+  padding-left: 3%;
+}
+@media (max-width: 992px) {
+  .category-col-1 {
+    padding-left: 0px;
+    padding-right: 0px;
+  }
+  .detail-images {
+    height: 80px;
+    width: 80px;
+  }
+  .add-cart {
+    background-color: black;
+    color: white;
+    font-family: Lato bold;
+    font-size: 15px;
+    padding: 5px 20px 5px 20px;
+    text-transform: uppercase;
+    border: none !important;
+  }
+  .add-heart {
+    background-color: transparent;
+    border: 1px solid grey;
+    padding: 2px 9px 2px 9px;
+  }
+  .add-pie {
+    background-color: transparent;
+    border: 1px solid grey;
+    padding: 2px 9px 2px 9px;
+  }
+  .buy-button {
+    background-color: #f17921;
+    color: white;
+    border: none !important;
+    width: 100%;
+    font-family: Lato bold;
+    font-size: 15px;
+    text-transform: uppercase;
+    margin-top: 3%;
+  }
+  .product-detail-title {
+    font-family: Monsterrat bold;
+    font-size: 15px;
+    text-transform: uppercase;
+  }
+  .forward-button {
+    background: transparent;
+    border: 1px solid grey;
+  }
+  .forware-image {
+    height: 18px;
+    width: 18px;
+  }
+}
+@media (max-width: 767px) {
+  .product-detail-image {
+    height: 100vh;
+    width: 100%;
+  }
+  .detail-images {
+    height: 150px;
+    width: 150px;
+  }
+  .add-cart {
+    background-color: black;
+    color: white;
+    font-family: Lato bold;
+    font-size: 15px;
+    padding: 0px;
+    text-transform: uppercase;
+    border: none !important;
+
+    padding: 10px 60px 10px 60px;
+  }
+  .add-heart {
+    background-color: transparent;
+    border: 1px solid grey;
+    padding: 8px 20px 8px 20px;
+  }
+  .add-pie {
+    background-color: transparent;
+    border: 1px solid grey;
+    padding: 8px 20px 8px 20px;
+  }
+  .buy-button {
+    background-color: #f17921;
+    color: white;
+    border: none !important;
+    width: 100%;
+    font-family: Lato bold;
+    font-size: 15px;
+    text-transform: uppercase;
+    margin-top: 3%;
+  }
+  .detail-div {
+    padding-top: 3%;
+    padding-left: 0px !important;
+  }
+  .image1-banner {
+    width: 100%;
+  }
+}
+@media (max-width: 576px) {
+  .detail-images {
+    height: 100px;
+    width: 100px;
+  }
+}
+@media (max-width: 420px) {
+  .detail-images {
+    height: 80px;
+    width: 80px;
+  }
+  .product-detail-image {
+    height: 70vh;
+  }
+  .add-cart {
+    background-color: black;
+    color: white;
+    font-family: Lato bold;
+    font-size: 12px;
+    padding: 0px;
+    text-transform: uppercase;
+    border: none !important;
+
+    padding: 12px 30px 12px 30px;
+  }
+}

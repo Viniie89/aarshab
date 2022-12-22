@@ -1,0 +1,229 @@
+<app-navbar></app-navbar>
+<app-header></app-header>
+
+<div class="container-fluid main-home">
+    <div class="row">
+        <div class="col-xl-3 home-col-1">
+            <div class="tabs">
+                <h6 class="tab1">Products & Services</h6>
+                <h6 class="tab1">Groceries</h6>
+                <h6 class="tab1">Creative Services</h6>
+                <h6 class="tab1">Prayer essential</h6>
+                <h6 class="tab1" routerLink="/category">Dry fruits</h6>
+                <h6 class="tab1">Silverware</h6>
+                <h6 class="tab1">Toiletries</h6>
+                <h6 class="tab1">Event Management</h6>
+                <h6 class="tab1">Interior design</h6>
+                <h6 class="tab1">Finance Consultancy</h6>
+                <h6 class="last-tab">View all categories
+                    <span class="mx-4"><i class="fa fa-dashboard"></i></span>
+                </h6>
+            </div>
+            <div class="silver-ware-div mt-4">
+             <img src="assets/images/silver-ware.jpg" class="silver-ware-image">
+             <div class="silver-ware-text">Silverware</div>
+            </div>
+            <div class="silver-ware-div mt-4">
+                <img src="assets/images/prayer-essential.jpg" class="silver-ware-image">
+                <div class="silver-ware-text">Prayer <br>Essentials</div>
+               </div>
+               <div class="diwali-div mt-4">
+                <div class="silver-ware-text">Diwali Sale <br>22 Oct</div>
+               </div>
+               <div class="mt-4">
+                <div>
+                    <h6 class="tax-text">Tax returns</h6>
+                    <p class="money-text">Starts at $999 only</p>
+                    <h6 class="tax-text mt-4">Logo design</h6>
+                    <p class="money-text">Starts at $5000 only</p>
+                    <h6 class="tax-text mt-4">Home Cooked meals</h6>
+                    <p class="money-text" >Starts at $5000 only</p>
+                    <h6 class="tax-text mt-4">Tax returns</h6>
+                    <p class="money-text">Starts at $999 only</p>
+                    <h6 class="tax-text mt-4">Logo design</h6>
+                    <p class="money-text">Starts at $5000 only</p>
+                    <h6 class="tax-text mt-4">Home Cooked meals</h6>
+                    <p class="money-text">Starts at $5000 only</p>
+                    <h6 class="tax-text mt-4">Tax returns</h6>
+                    <p class="money-text">Starts at $999 only</p>
+                    <h6 class="tax-text mt-4">Logo design</h6>
+                    <p class="money-text">Starts at $5000 only</p>
+                    <h6 class="tax-text mt-4">Home Cooked meals</h6>
+                    <p class="money-text">Starts at $5000 only</p>
+                </div>
+
+               </div>
+        </div>
+        <div class="col-xl-9 home-col-2">
+            <div class="banner-image-div">
+                <img src="assets/images/banner-image.jpg" class="banner-image">
+                <div class="banner-text1">Get the <span class="winter-text">Winter</span> <br>look of 2022</div>
+                <div class="banner-text2">Only on the origin store</div>
+                <div class="banner-text3">
+                    <button class="shop-button">Shop Now !</button>
+                </div>
+            </div>
+            <div class="col-xl-12 mt-4">
+                <div class="row">
+                    <div class="col-xl-5 col-lg-5 col-md-5 col-sm-6 dry-fruits-card">
+                        <div class="card" style="padding: 3%;">
+                          
+                            <div class="card-body">
+                              <h5 class="card-title">Dry Fruits</h5>
+                              <button href="#" class="mt-4 shop-button-card" routerLink="/category">Shop Now <i class="fa fa-arrow-right" style="font-size: 15px;"></i></button>
+                            </div>
+                            <img src="assets/images/dry-fruits.jpg" class="card-img-top" >
+                          </div>
+                    </div>
+                    <div class="col-xl-7 col-lg-7 col-md-7 col-sm-6 toiletries-col">
+                       <div class="card" style="padding: 2%;">
+                        <div class="card-body">
+                            <h5 class="card-title1">Toiletries <br> & essentials</h5>
+                            <h5 class="title-toiletries">Toiletries & essentials</h5>
+                            <button href="#" class="mt-4 shop-button-card">Shop Now <i class="fa fa-arrow-right" style="font-size: 15px;"></i></button>
+                        </div>
+                        <img src="assets/images/essential.jpg" class="essential-image">
+                       </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-xl-12 mt-4">
+                <div class="row">
+                    <div style="display: flex;
+                    justify-content: space-between;">
+                        <h6 class="bestseller-text">Best seller</h6>
+                        <h6 class="view-all">View All</h6>
+
+                    </div>
+                    <div class="col-xl-4 col-lg-4 col-md-4 col-sm-6" *ngFor="let asetts of assets ">
+                         <div class="category-image-div">
+                            <a routerLink="/product-detail">
+                                <img src={{asetts.image}} class="category-image">
+                            </a>
+                         </div>
+                         <h6 class="category-title">{{asetts.title}}</h6>
+                         <h6 class="category-cost">{{asetts.cost}}</h6>
+
+                         <div class="buttons mt-3" style="display: flex; padding-left: 15%; padding-right: 15%;">
+                            <div>
+                                <button class="add-to-cart">Add to cart</button>
+                            </div>
+                            <div style="margin-left: 3%;">
+                                <button class="add-to-heart">
+                                 <img src="assets/images/heartt.png" height="20" width="20" class="hearttt-image">
+                                </button>
+                            </div>
+                            <div style="margin-left: 3%;">
+                                <button class="add-to-heart">
+                                 <img src="assets/images/pi-chart.jpg" height="20" width="20">
+                                </button>
+                            </div>
+                           </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="adv-banner mt-5">
+                <h6 class="banner-advertise">Advt.Banner</h6>
+            </div>
+
+            <div class="col-xl-12 mt-4">
+                <div class="row">
+                    <div style="display: flex;
+                    justify-content: space-between;">
+                        <h6 class="bestseller-text">New Arrival</h6>
+                        <h6 class="view-all">View All</h6>
+
+                    </div>
+                    <div class="col-xl-4 col-lg-4 col-md-4 col-sm-6" *ngFor="let asetts of arrival ">
+                         <div class="category-image-div">
+                            <a routerLink="/product-detail">
+                                <img src={{asetts.image}} class="category-image">
+                            </a>
+                         </div>
+                         <h6 class="category-title">{{asetts.title}}</h6>
+                         <h6 class="category-cost">{{asetts.cost}}</h6>
+
+                         <div class="buttons mt-3" style="display: flex; padding-left: 15%; padding-right: 15%;">
+                            <div>
+                                <button class="add-to-cart">Add to cart</button>
+                            </div>
+                            <div style="margin-left: 3%;">
+                                <button class="add-to-heart">
+                                 <img src="assets/images/heartt.png" height="20" width="20">
+                                </button>
+                            </div>
+                            <div style="margin-left: 3%;">
+                                <button class="add-to-heart">
+                                 <img src="assets/images/pi-chart.jpg" height="20" width="20">
+                                </button>
+                            </div>
+                           </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+    <div class="mt-5">
+        <hr>
+    </div>
+
+    <div class="col-xl-12 mt-5">
+        <div class="row">
+            <div class="col-xl-3 col-lg-3 col-md-6 col-sm-6 gift-main-div">
+                <div class="product-review">
+                    <div class="mt-0">
+                        <img src="assets/images/gift.png" class="gift">
+                        
+                    </div>
+                    <div class="mt-2">
+                        <h6 class="products-text mx-1"> 5000+ Products</h6>
+                        <h6 class="women-text mx-1">Best for Men and women</h6>
+                        </div>
+                </div>
+            </div>
+            <div class="col-xl-3 col-lg-3 col-md-6 col-sm-6 gift-main-div">
+                <div class="product-review">
+                    <div>
+                        <img src="assets/images/location.png" class="location">
+                        
+                    </div>
+                    <div class="mt-2">
+                        <h6 class="products-text mx-1">Free shipping</h6>
+                        <h6 class="women-text mx-1">Free shipping in india</h6>
+                        </div>
+                </div>
+            </div>
+            <div class="col-xl-3 col-lg-3 col-md-6 col-sm-6 gift-main-div">
+                <div class="product-review">
+                    <div>
+                        <img src="assets/images/star.png" class="star">
+                        
+                    </div>
+                    <div class="mt-2">
+                        <h6 class="products-text mx-1">More 400 brands</h6>
+                        <h6 class="women-text mx-1">India , Us , Uk , France</h6>
+                        </div>
+                </div>
+            </div>
+            <div class="col-xl-3 col-lg-3 col-md-6 col-sm-6 gift-main-div-dollar">
+                <div class="product-review">
+                    <div>
+                        <img src="assets/images/dollar.png" class="dollar">
+                        
+                    </div>
+                    <div class="mt-2">
+                        <h6 class="products-text mx-1">Refund in 15 days</h6>
+                        <h6 class="women-text mx-1">100% free guaranty</h6>
+                        </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="mt-5">
+        <hr>
+    </div>
+</div>
+<app-footer></app-footer>

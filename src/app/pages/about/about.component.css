@@ -1,0 +1,142 @@
+.about-title {
+  text-transform: uppercase;
+  font-size: 19px;
+  font-family: Monsterrat bold;
+}
+.about-image {
+  height: 80vh;
+  width: 100%;
+}
+.about-image-div {
+  padding-left: 0px;
+  padding-right: 0px;
+  padding-top: 1%;
+}
+.color-div {
+  background-color: navy;
+  position: absolute;
+  height: 90%;
+  width: 100%;
+  opacity: 25%;
+}
+.inner-div {
+  position: absolute;
+  top: 40%;
+  left: 4%;
+}
+.banner-image {
+  width: 100%;
+  height: 70vh;
+}
+.home-container {
+  padding-left: 0px;
+  padding-right: 0px;
+  position: relative;
+}
+.color-div {
+  background-color: black;
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  opacity: 25%;
+}
+.inner-div {
+  position: absolute;
+  top: 40%;
+  left: 30%;
+}
+
+.banner-title {
+  font-size: 42px;
+  color: white;
+  font-family: Monsterrat bold;
+  line-height: 60px;
+  padding-top: 3%;
+  letter-spacing: 2px;
+  text-align: center;
+  margin: auto;
+  text-transform: uppercase;
+}
+.banner-button {
+  background-color: midnightblue;
+  border: none;
+  padding: 10px 32px 10px 32px;
+  color: beige;
+  border-radius: 5px;
+  text-transform: uppercase;
+  font-size: 16px;
+  letter-spacing: 2px;
+  font-weight: 500;
+}
+.about-detail-1 {
+  background: #f0f7f7;
+  padding-top: 8%;
+  padding-bottom: 8%;
+  padding-left: 8%;
+  padding-right: 8%;
+}
+.about-detail-1para {
+  text-align: center;
+  margin: auto;
+  font-family: Lato regular;
+  font-weight: bold;
+  font-size: 16px;
+  width: 760px;
+}
+.about-image-1 {
+  height: 50vh;
+  width: 90%;
+}
+.about-detail1-div {
+  padding-left: 4%;
+  padding-right: 4%;
+  padding-top: 3%;
+  padding-bottom: 3%;
+  background-color: #e0eeee;
+}
+.about-detail2-div {
+  padding-left: 4%;
+  padding-right: 4%;
+  padding-top: 3%;
+  padding-bottom: 3%;
+  background-color: #f0f7f7;
+}
+.new-text {
+  text-transform: uppercase;
+  font-family: Monsterrat bold;
+  padding-top: 10%;
+}
+.new-para {
+  padding-top: 3%;
+  font-family: Lato bold;
+  font-size: 15px;
+  text-align: left;
+  width: 600px;
+  line-height: 34px;
+}
+@media (max-width: 992px) {
+  .new-para {
+    max-width: 100%;
+    line-height: 27px;
+  }
+  .about-image-1 {
+    height: 60vh;
+    width: 100%;
+  }
+  .new-text {
+    text-align: center;
+    margin: auto;
+  }
+  .new-para {
+    text-align: center;
+    margin: auto;
+  }
+  .banner-title {
+    font-size: 27px;
+  }
+  .inner-div {
+    position: absolute;
+    top: 40%;
+    left: 25%;
+  }
+}

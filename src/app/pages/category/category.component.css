@@ -1,0 +1,115 @@
+.category-main {
+  padding-left: 4%;
+  padding-right: 4%;
+}
+.title {
+  font-family: Lato regular;
+  font-size: 18px;
+}
+.filter-title {
+  font-size: 24px;
+  font-family: Lato regular;
+  font-weight: bold;
+}
+.avaialble-title {
+  font-size: 18px;
+  font-family: Lato regular;
+}
+.category-title {
+  font-family: Lato regular;
+  font-size: 17px;
+}
+.filter-column {
+  border: 1px solid lightgray;
+  padding-bottom: 3%;
+  height: 160vh;
+}
+.category-image {
+  height: 42vh;
+  width: 100%;
+}
+.image-dry-fruit-div {
+  position: relative;
+}
+.dry-fruit-image-text {
+  position: absolute;
+  bottom: 1px;
+  color: white;
+  background-color: black;
+  padding: 15px 42px 15px 42px;
+  font-family: Monsterrat bold;
+  font-size: 18px;
+}
+.category-sort-item {
+  display: flex;
+  justify-content: space-between;
+}
+.items-total {
+  font-family: Lato regular;
+  font-size: 14px;
+}
+.sort-item {
+  font-family: Lato regular;
+  font-size: 14px;
+}
+.popular-button {
+  background-color: transparent;
+  border: 1px solid grey;
+  padding: 5px 12px 5px 12px;
+  font-family: Lato regular;
+}
+.category-almond-title {
+  text-align: center;
+  font-family: Monsterrat medium;
+  font-size: 15px;
+  text-transform: uppercase;
+}
+.category-almond-cost {
+  text-align: center;
+  font-family: Monsterrat bold;
+  font-size: 15px;
+  text-transform: uppercase;
+}
+.add-to-cart {
+  background-color: black;
+  border: 1px solid grey;
+  font-family: Lato bold;
+  text-transform: uppercase;
+  font-size: 12px;
+  padding: 5px 15px 5px 15px;
+  color: white;
+}
+.add-to-cart:hover {
+  background-color: black;
+  color: white;
+}
+.add-to-heart {
+  background-color: transparent;
+  padding: 2px 5px 2px 5px;
+  border: 1px solid grey;
+}
+.category-main-image {
+  height: 50vh;
+  width: 100%;
+}
+@media (max-width: 992px) {
+  .filter-column {
+    border: 1px solid lightgray;
+    padding-bottom: 3%;
+    height: 212vh;
+  }
+}
+@media (max-width: 767px) {
+  .filter-column {
+    order: 2;
+  }
+  .category-column {
+    order: 1;
+  }
+}
+@media (max-width: 767px) {
+  .category-main-image {
+    height: 80vh !important;
+    width: 100% !important;
+  }
+}

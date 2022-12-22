@@ -1,0 +1,50 @@
+li {
+  text-transform: uppercase;
+  font-family: Monsterrat bold;
+  font-size: 14px;
+  font-weight: 500;
+  color: #8b8b8b;
+}
+.partner-text {
+  color: #f17921;
+  font-family: Monsterrat bold;
+  font-size: 14px;
+  font-weight: 500;
+  text-transform: uppercase;
+}
+.navbar {
+  padding-left: 3%;
+  padding-right: 3%;
+}
+.sale-text {
+  color: #0caad9;
+}
+.mobile-menu {
+  display: none !important;
+}
+.partner-title {
+  display: none !important;
+}
+@media (max-width: 992px) {
+  .desktop-header {
+    display: none !important;
+  }
+  .mobile-menu {
+    display: block !important;
+    padding-left: 2%;
+    padding-right: 2%;
+  }
+  .btn-product {
+    background-color: black;
+    color: white;
+    border: none !important;
+    font-family: Lato regular;
+    font-size: 14px;
+    padding: 5px 32px 5px 32px;
+  }
+  .partner-title {
+    display: block !important;
+    padding-left: 3%;
+    padding-top: 1%;
+  }
+}

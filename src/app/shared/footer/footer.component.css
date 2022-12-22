@@ -1,0 +1,34 @@
+.footer-main {
+  padding-left: 6%;
+  padding-right: 6%;
+}
+.info-col {
+  font-family: Monsterrat bold;
+  font-size: 18px;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+}
+ul {
+  padding-left: 15px;
+  list-style-type: square;
+}
+li a {
+  font-family: Lato regular;
+  color: grey;
+  font-size: 15px;
+}
+.address {
+  color: grey;
+  font-family: Lato regular;
+  font-size: 15px;
+}
+@media (max-width: 576px) {
+  .info-main-col {
+    text-align: center;
+    margin: auto;
+  }
+  ul {
+    padding-left: 15px;
+    list-style-type: none;
+  }
+}

@@ -1,0 +1,34 @@
+.shop-by-store-main {
+  padding-left: 4%;
+  padding-right: 4%;
+  padding-top: 1%;
+  padding-bottom: 3%;
+}
+.shop-by-title {
+  font-family: Monsterrat bold;
+  font-size: 17px;
+  text-transform: uppercase;
+}
+.greocery-main {
+  padding-left: 4%;
+  padding-right: 4%;
+  padding-bottom: 3%;
+}
+.grocery-title {
+  font-family: Monsterrat bold;
+  font-size: 17px;
+  text-transform: uppercase;
+}
+.grocery-iamage {
+  height: 60vh;
+  width: 100%;
+}
+.visit-button {
+  width: 100%;
+  background-color: black;
+  color: white;
+  border: none !important;
+  font-size: 15px;
+  font-family: Lato regular;
+  text-transform: uppercase;
+}
